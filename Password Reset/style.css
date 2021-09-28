@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/*----- Style the contiainer --------*/
+
+.container{
+    max-width: 500px;
+    height: 400px;
+    text-align: center;
+    display: block;
+    margin: 150px auto 0 auto; /* Top, Right, Bottom, Left */
+    background-image: linear-gradient(#E94D5C, #7B0063);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/*----- Style the h1 tag --------*/
+h1 {
+    color: white;
+    margin: 10px;
+}
+
+/*----- Style the h3 tag --------*/
+h3{
+    color: white;
+    margin: 10px;
+}
+
+
+/*----- Style the p tag --------*/
+p{
+    color: white;
+    margin: 10px;
+    opacity: 0.9;
+}
+
+/*----- Style the input --------*/
+input{
+    width: 80%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 10px 0;
+    box-sizing: border-box;
+    background-color: #d1d1d1;
+
+    border: 3px solid white;
+    border-radius: 8px;
+}
+
+/*----- Style the Password 1, 2 --------*/
+#pass1, #pass2 {
+    background-image: url(img/pass.png);
+    background-repeat: no-repeat;
+    background-position: 8px 15px;
+    font-size: 1.5rem;
+    padding: 15px 40px;
+    width: 350px;
+    color: blue;
+    transition: width 0.3s ease-in-out;
+
+}
+
+/*----- Set a Style for the password field focus --------*/
+#pass1:focus, #pass2:focus{
+    background-color: white;
+    width: 80%;
+}
+
+/*----- Set a Style for the Changing password button --------*/
+button {
+    padding: 8px 50px;
+    margin: 5px;
+    font-size: 0.8rem;
+    border-radius: 20px;
+    /* background-color: rgb(255, 0, 0, 0.7); */
+    background-color: rgb(0, 0, 255, 0.7);
+    color:white;
+    cursor: pointer;
+}
+
+/*----- Set a style for button when it would be hover --------*/
+button:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
